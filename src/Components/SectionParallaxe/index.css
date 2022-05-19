@@ -1,0 +1,57 @@
+.containerParallaxe {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: beige;
+    transform: skew(0deg, -8deg) translateY(-98px);
+    height: 500px;
+
+}
+
+.containerParallaxe .box-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.containerParallaxe .box-img:nth-child(1) {
+    background-image: url("https://i.pinimg.com/736x/fb/d7/46/fbd746e4aa864c15230bd549e90490c0.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.containerParallaxe .box-img:nth-child(2) {
+    background-color: #2e537e;
+
+}
+
+
+.containerParallaxe .box-img .text {
+    transform: skew(0deg, 8deg)
+}
+
+.containerParallaxe .box-img .text h1{
+font-family: 'Libre Caslon Display', serif;
+  color: white;
+}
+
+.text-p {
+    padding: 37px 59px;
+    color: white;
+}
+
+.containerParallaxe .box-img button {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 12px 37px;
+    color: white;
+    
+}
+
+
+
+
+

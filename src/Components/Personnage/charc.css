@@ -1,0 +1,15 @@
+.section-personnage {
+
+width: 100%;
+}
+
+.CharactersContainer {
+    background-color: #252633;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* overflow: scroll; */
+    gap: 22px;
+    padding: 21px;
+}

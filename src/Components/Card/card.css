@@ -1,0 +1,99 @@
+
+.container-personnage {
+width: 100%;
+display: flex;
+gap: 12px;
+flex-direction: row;
+margin: 0 auto;
+transform: skew(0deg, -8deg) translateY(-98px);
+background-color: black;
+height: 600px;
+}
+
+.person {
+        width: 350px;
+        margin: 20px 10px;
+        box-shadow: 0px 0px 10px #e9e9e9;
+        transition: 0.3s ease-in-out;
+        
+
+}
+
+.person:hover {
+
+        transform: translateY(-5px);
+        box-shadow: 1px 1px 10px black;
+}
+
+.person .top-person {
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+
+}
+
+.top-person img {
+
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: 0.7s ease;
+}
+
+.person:hover .top-person img {
+
+        transform: scale(1.1);
+
+}
+
+.bottom-person {
+        text-align: center;
+        position: relative;
+        padding: 40px;
+        padding-top: 30px;
+
+}
+
+.top-btn {
+        padding: 11px 18px;
+        background-color: #F96F88;
+        color: #fff;
+        text-transform: uppercase;
+        display: inline-block;
+        font-size: 14px;
+        position: absolute;
+        top: -15px;
+        left: 50%;
+        transform: translateX(-50%);
+
+}
+
+
+.bottom-person p {
+
+        color: #999;
+        font-size: 14px;
+        line-height: 3;
+}
+
+.text-person {
+        font-size: 30px;
+        padding-bottom: 34px;
+
+}
+
+.bottom-person .btn-sav {
+        text-decoration: none;
+        color: #f96f88;
+    border: 1px solid #f96f88;
+    padding: 12px 12px;
+}
+
+.bottom-person .btn-sav:hover {
+        text-decoration: none;
+        color: #fff;
+        background-color: #f96f88;
+    border: 1px solid #f96f88;
+    padding: 12px 12px;
+}
+

@@ -1,0 +1,9 @@
+.secimage {
+width: 100%;
+height: 500px;
+background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d51b6381-bc2a-460a-a1f0-6010d8023db1/db2lgqu-867bc55c-fc97-4968-9928-748e16543878.png/v1/fill/w_1024,h_525,q_80,strp/wizard_s_chess_by_ancientking_db2lgqu-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTI1IiwicGF0aCI6IlwvZlwvZDUxYjYzODEtYmMyYS00NjBhLWExZjAtNjAxMGQ4MDIzZGIxXC9kYjJsZ3F1LTg2N2JjNTVjLWZjOTctNDk2OC05OTI4LTc0OGUxNjU0Mzg3OC5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.qBGBvrZptjgCCg0P1BgkU_f2fcohthdf_S88noRFzuY");
+transform: skew(0deg, -8deg) translateY(-96px);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}

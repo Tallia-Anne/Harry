@@ -1,0 +1,78 @@
+.container-house {
+width: 100%;
+display: flex;
+flex-direction: row;
+
+}
+
+.container-house .itemhouse {
+width: 500px;
+height: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+}
+
+.overlay {
+background-color: #0d0d0db0;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+left: 0;
+height: 100%;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+opacity: 1;
+}
+
+.container-house .itemhouse h1 {
+    color: white;
+    font-family: 'Libre Caslon Display', serif;
+    font-weight: 200;
+    transform: rotate(317deg) translateY(54px);
+}
+
+.cardre {
+border: rgb(255, 255, 255) 1px solid;
+    height: 142px;
+    width: 142px;
+    padding: 8px 24px;
+    transform: rotate(45deg);
+}
+
+.house1 {
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+} 
+.house2 {
+background-position: center;
+background-repeat: no-repeat;
+transition: all 300ms ease-in-out;
+
+} 
+.house3 {
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+transition: all 300ms ease-in-out;
+} 
+.house4 {
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+transition: all 300ms ease-in-out;
+} 
+
+.house1, .house2, .house3, .house4:hover {
+flex-grow: 1;
+
+
+}
+.overlay:hover {
+opacity: 0;
+}

@@ -12,7 +12,7 @@ const Header = () => {
             <nav>
                
                 <ol>
-                    <li> <Link to="/compteurs" > Les maisons</Link></li>
+                    <li> <Link to="/house" > Les maisons</Link></li>
                     <li><Link to="/characters"> Les personnages </Link>  </li>
                     <li> <Link to="/compteurs" > Les sorts</Link></li>
                     

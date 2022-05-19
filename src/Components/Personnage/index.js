@@ -9,7 +9,7 @@ const Characte = (props) => {
             {
                 props.data.map((person) => {
                     return (
-                        <Cardperson name={person.name} imageUrl={person.image} yearOfBirth={person.yearOfBirth} />
+                        <Cardperson name={person.name} imageUrl={person.image} yearOfBirth={person.yearOfBirth} house={person.house}  />
 )
                 })
                 }

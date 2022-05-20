@@ -1,0 +1,39 @@
+.card-sorts {
+
+display: flex;
+flex-direction: column;
+background-color: white;
+border-radius: 9px;
+justify-content: center;
+align-items: center;
+
+
+}
+
+
+
+.card-sorts .card-content-sort {
+width: 250px;
+height: 250px;
+    background-color: #041e57f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 12px;
+    box-shadow: 1px 1px 1px #a8b0c2ad ;
+}
+
+.card-sorts .card-content-sort:hover
+{
+    box-shadow: 0px 0px 150px #4e484863;
+    z-index: 2;
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
+
+.card-sorts .card-content-sort p{
+    color: white;
+    padding-bottom: 12px;
+}

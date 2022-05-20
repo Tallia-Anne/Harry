@@ -35,6 +35,9 @@ opacity: 1;
     font-weight: 200;
     transform: rotate(317deg) translateY(54px);
 }
+.container-house .itemhouse a {
+    text-decoration: none;
+}
 
 .cardre {
 border: rgb(255, 255, 255) 1px solid;

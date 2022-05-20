@@ -14,7 +14,7 @@ const Header = () => {
                 <ol>
                     <li> <Link to="/house" > Les maisons</Link></li>
                     <li><Link to="/characters"> Les personnages </Link>  </li>
-                    <li> <Link to="/compteurs" > Les sorts</Link></li>
+                    <li> <Link to="/sort" > Les sorts</Link></li>
                     
 
 

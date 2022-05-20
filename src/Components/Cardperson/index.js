@@ -8,6 +8,7 @@ const Cardperson = (props) => {
     
     return (
         <div className="card-person"
+            
 
         >
             <div className="card-image">
@@ -20,7 +21,7 @@ const Cardperson = (props) => {
                 }}
                 >{props.name}</p>
                 
-                <p>{props.yearOfBirth}</p>
+               
                    
                 
               
@@ -61,9 +62,9 @@ const Cardperson = (props) => {
                         </div>
                     </div>
                     
-                    {/* <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Red_Panda_%2824986761703%29.jpg/220px-Red_Panda_%2824986761703%29.jpg"  alt='imgmodal'/> */}
+                  
                 </div>
-            ) : null}
+             ): null}
             
             
             

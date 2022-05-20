@@ -15,7 +15,7 @@ flex-direction: column;
  font-size: 100px;
     font-weight: 600;
 padding-bottom: 12px;
-background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+background: linear-gradient(to right, #7c4ff6, #1e1bb392, #12c2e9);
     background-clip: text;
 color: transparent;
 }

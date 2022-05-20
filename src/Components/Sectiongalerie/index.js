@@ -13,7 +13,7 @@ const Sectiongalerie = () => {
                 
                 <div className=" galerie item1 ">
                     <div className="bordure">
-                        <p>Les Tomes d'harry potter</p>
+                        <Link to="/" ><p>Les Tomes d'harry potter</p></Link>
                     </div>
                 </div>
                 <div className=" galerie item2 ">
@@ -23,7 +23,7 @@ const Sectiongalerie = () => {
                 </div>
                 <div className=" galerie item3 ">
                     <div className="bordure">
-                        <p>Les maisons</p>
+                        <Link to="/house" > <p>Les maisons</p></Link>
                     </div>
                 </div>
             </div>

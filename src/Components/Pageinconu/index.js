@@ -1,6 +1,6 @@
 import './index.css'
 import { Link } from "react-router-dom";
-import image404 from "../../Components/assets/harry_potter_fanart_08_by_vladislavpantic_dcu3ave-fullview.jpg";
+import image404 from "../../Components/assets/harry_potter_and_the_philosopher_s_stone_fanart_01_by_vladislavpantic_dcl0klm-fullview.jpg";
 const erreur = () => {
     return (
         

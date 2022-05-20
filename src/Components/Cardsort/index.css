@@ -25,12 +25,17 @@ height: 250px;
     box-shadow: 1px 1px 1px #a8b0c2ad ;
 }
 
+.card-sorts .card-content-sort .title {
+   font-family: 'New Rocker', cursive;
+    font-weight: 500;
+}
+
 .card-sorts .card-content-sort:hover
 {
-    box-shadow: 0px 0px 150px #4e484863;
+    box-shadow: 0px 0px 150px #7261b063;
     z-index: 2;
     transition: all 200ms ease-in;
-    transform: scale(1.5);
+    transform: scale(1.4);
 }
 
 .card-sorts .card-content-sort p{

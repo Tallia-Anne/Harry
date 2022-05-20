@@ -3,7 +3,7 @@ const sorts = [
        
         name: "Accio",
         text: "Attirer quelque chose",
-        
+      
         
     },
     {
@@ -37,7 +37,7 @@ const sorts = [
     {
 
         name: "Crache limace",
-        text: "Faire cracher des limace",
+        text: "Faire cracher des limaces",
     },
     {
 
@@ -158,6 +158,11 @@ const sorts = [
 
         name: "Lumus solem",
         text: "Illuminer une pièce",
+    },
+    {
+
+        name: "Mobilicorpus",
+        text: "Neutraliser un sort d' imobilisation",
     },
 
 ];

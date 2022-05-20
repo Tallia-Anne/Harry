@@ -7,10 +7,10 @@ const Cardsort = (props) => {
     return (
         <>
         <div className="card-sorts">
-            
+               
                 <div className="card-content-sort">
                     
-                    <p>{props.name}</p>  
+                    <p className='title'>{props.name}</p>  
                     <p>{props.text}</p>
             </div>
         </div>

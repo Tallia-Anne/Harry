@@ -4,12 +4,11 @@ width: 100%;
 }
 
 .CharactersContainer {
-    background-color: #252633;
+    background-color: #000000;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    /* overflow: scroll; */
-    gap: 22px;
+    gap: 30px;
     padding: 21px;
 }

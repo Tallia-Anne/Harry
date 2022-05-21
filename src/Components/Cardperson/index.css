@@ -1,18 +1,17 @@
 
 .card-person {
-
 display: flex;
 flex-direction: column;
-background-color: white;
-border-radius: 9px;
-
+height: 500px;
+width: 300px;
+position: relative;
 
 }
 
 .card-person .card-image {
 
-width: 300px;
-height: 300px;
+width: 100%;
+height: 100%;
 
 
 }
@@ -22,10 +21,40 @@ width: 100%;
 height: 100%;
 object-fit: cover;
 object-position: top;
+border-radius: 10px;
+box-shadow: 5px 1px 9px rgba(53, 52, 52, 0.445);
 }
 
 .card-person .card-content {
-padding: 22px
+padding: 22px;
+position:absolute;
+top: 70%;
+background-color: rgba(1,1,1,0.8);
+width: 100%;
+color: white;
+letter-spacing: 2px;
+font-family: 'Libre Caslon Display', serif;
+text-transform: uppercase;
+font-size: 15px;
+font-weight: 100;
+}
+
+
+.activemodale {
+
+position: absolute;
+    left: 38%;
+    top: 88%;
+    background: linear-gradient(to right, #8E54E9, #4776E6);
+    box-shadow: 0 0 5px lightblue;
+    padding: 5px 5px;
+    border-radius: 50%;
+    width: 82px;
+    height: 82px;
+    font-size: 47px;
+    color: white;
+    font-weight: 100;
+
 }
 
 
@@ -33,15 +62,16 @@ padding: 22px
 
 
 .myModal {
-    position: absolute;
-    left:0;
+    position: fixed;
+    top:0;
     background-color: rgba(1,1,1,0.8);
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    animation: appear 1s
+    animation: appear 1s;
+    z-index: 12
 }
 
 .conmodal{

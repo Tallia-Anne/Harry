@@ -6,9 +6,7 @@ const Heroperson = () => {
 
             <div className="herosection2">
                 <h1 className="title">L'école de Poudlard</h1>
-                <div >
-                    <button className="btn">Découvrir</button>
-                </div>
+               
             </div>
 
 

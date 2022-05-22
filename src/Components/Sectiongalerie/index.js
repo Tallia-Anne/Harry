@@ -13,7 +13,7 @@ const Sectiongalerie = () => {
                 
                 <div className=" galerie item1 ">
                     <div className="bordure">
-                        <Link to="/" ><p>Les Tomes d'harry potter</p></Link>
+                        <Link to="/book" ><p>Les Tomes d'harry potter</p></Link>
                     </div>
                 </div>
                 <div className=" galerie item2 ">

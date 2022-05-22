@@ -24,21 +24,21 @@ const Galeriehouse = () => {
             <div className="itemhouse house2" style={{ backgroundImage: `url(${imagehouse1})` }} >
                 <div className="overlay">
                     <div className="cardre">
-                        <h1>Ravenclaw</h1>
+                        <Link to="/ravenclaw"> <h1>Ravenclaw</h1></Link> 
                     </div>
                 </div>
             </div>
             <div className="itemhouse house3" style={{ backgroundImage: `url(${imagehouse3})` }} >
                 <div className="overlay">
                     <div className="cardre">
-                        <h1>Hufflepuff</h1>
+                        <Link to="/hufflepuff" > <h1>Hufflepuff</h1> </Link>
                     </div>
                 </div>
             </div>
             <div className="itemhouse house4" style={{ backgroundImage: `url(${imagehouse4})` }} >
                 <div className="overlay">
                     <div className="cardre">
-                        <h1>Slytherin</h1>
+                        <Link to="/serpent" ><h1>Slytherin</h1></Link> 
                     </div>
                 </div>
             </div>

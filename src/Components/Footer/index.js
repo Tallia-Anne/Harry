@@ -21,7 +21,7 @@ const Footer = () => {
                 </div>
 
                 <div class="row">
-                    Copyright © 2022 Inferno - All rights reserved || Designed By: Mahesh
+                    Copyright © 2022 Wambiekele Kiyeko Tallia-Anne
                 </div>
                 
             </div>

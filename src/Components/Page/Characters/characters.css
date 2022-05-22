@@ -1,0 +1,27 @@
+.search-bar {
+
+padding: 12px 12px;
+background-color: black;
+width: 100%;
+display: flex;
+gap: 12px;
+justify-content: center;
+align-items: center;
+
+}
+
+.search-bar  h4 {
+
+color: white;
+font-weight: 100;
+
+}
+
+
+input[type="text" i] {
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: rgba(240, 248, 255, 0.084);
+    padding: 12px 32px;
+    color: white;
+}

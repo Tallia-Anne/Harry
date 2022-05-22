@@ -1,3 +1,5 @@
+
+@media screen and (min-width: 1280px) {
 .containerintro {
 background-color: black;
 width: 100%;
@@ -60,4 +62,276 @@ animation: animName 5s linear infinite;
 
 .quare:hover {
 background-color: rgba(255, 255, 255, 0.539) ;
+}
+}
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+.containerintro {
+background-color: black;
+width: 100%;
+height: 600px;
+display: flex;
+flex-direction: column;
+gap: 22px;
+justify-content: center;
+align-items: center;
+transform: skew(0deg, -8deg) translateY(-95px);
+}
+
+
+
+.containerintro .intro {
+
+color: white;
+text-align: center;
+ width: 584px;
+
+}
+
+.intro-text {
+
+transform: skew(0deg, 8deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro-text h2 {
+
+padding: 41px;
+font-family: 'Libre Caslon Display', serif;
+font-weight: 200;
+}
+
+.intro-text p {
+
+line-height: 1.5;
+
+}
+.quare {
+border: 1px solid white;
+width: 50px;
+height: 50px;
+transform: rotate( 45deg);
+padding-bottom: 22px;
+animation: animName 5s linear infinite;
+}
+
+@keyframes animName {
+ 0%{
+    transform: rotate(0deg);
+   }
+100%{
+    transform: rotate(360deg);
+   }
+}
+
+.quare:hover {
+background-color: rgba(255, 255, 255, 0.539) ;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+.containerintro {
+background-color: black;
+width: 100%;
+height: 600px;
+display: flex;
+flex-direction: column;
+gap: 22px;
+justify-content: center;
+align-items: center;
+transform: skew(0deg, -8deg) translateY(-95px);
+}
+
+
+
+.containerintro .intro {
+
+color: white;
+text-align: center;
+ width: 100%;
+
+}
+
+.intro-text {
+
+transform: skew(0deg, 8deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro-text h2 {
+
+padding: 41px;
+font-family: 'Libre Caslon Display', serif;
+font-weight: 200;
+}
+
+.intro-text p {
+
+line-height: 1.5;
+
+}
+.quare {
+border: 1px solid white;
+width: 50px;
+height: 50px;
+transform: rotate( 45deg);
+padding-bottom: 22px;
+animation: animName 5s linear infinite;
+}
+
+@keyframes animName {
+ 0%{
+    transform: rotate(0deg);
+   }
+100%{
+    transform: rotate(360deg);
+   }
+}
+
+.quare:hover {
+background-color: rgba(255, 255, 255, 0.539) ;
+}
+}
+@media screen and (min-width: 480px) and (max-width: 767.9px)  {
+
+.containerintro {
+background-color: black;
+width: 100%;
+height: 600px;
+display: flex;
+flex-direction: column;
+gap: 22px;
+justify-content: center;
+align-items: center;
+transform: skew(0deg, -8deg) translateY(-95px);
+}
+
+
+
+.containerintro .intro {
+
+color: white;
+text-align: center;
+ width: 100%;
+
+}
+
+.intro-text {
+
+transform: skew(0deg, 8deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro-text h2 {
+
+padding: 41px;
+font-family: 'Libre Caslon Display', serif;
+font-weight: 200;
+}
+
+.intro-text p {
+
+line-height: 1.5;
+
+}
+.quare {
+border: 1px solid white;
+width: 50px;
+height: 50px;
+transform: rotate( 45deg);
+padding-bottom: 22px;
+animation: animName 5s linear infinite;
+}
+
+@keyframes animName {
+ 0%{
+    transform: rotate(0deg);
+   }
+100%{
+    transform: rotate(360deg);
+   }
+}
+
+.quare:hover {
+background-color: rgba(255, 255, 255, 0.539) ;
+}
+
+
+
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 479.9px) {
+
+.containerintro {
+background-color: black;
+width: 100%;
+height: 600px;
+display: flex;
+flex-direction: column;
+gap: 22px;
+justify-content: center;
+align-items: center;
+transform: skew(0deg, -8deg) translateY(-95px);
+}
+
+
+
+.containerintro .intro {
+
+color: white;
+text-align: center;
+ width: 100%;
+
+}
+
+.intro-text {
+
+transform: skew(0deg, 8deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro-text h2 {
+
+padding: 41px;
+font-family: 'Libre Caslon Display', serif;
+font-weight: 200;
+}
+
+.intro-text p {
+
+line-height: 1.5;
+
+}
+.quare {
+border: 1px solid white;
+width: 50px;
+height: 50px;
+transform: rotate( 45deg);
+padding-bottom: 22px;
+animation: animName 5s linear infinite;
+}
+
+@keyframes animName {
+ 0%{
+    transform: rotate(0deg);
+   }
+100%{
+    transform: rotate(360deg);
+   }
+}
+
+.quare:hover {
+background-color: rgba(255, 255, 255, 0.539) ;
+}
+
+
+
+
 }

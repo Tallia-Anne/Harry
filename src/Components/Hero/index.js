@@ -7,7 +7,7 @@ const Hero = () => {
             <div className="herosection2">
                 <h1 className="title">Le monde d'Harry Potter</h1>
                 <div >
-                    <button className="btn">Découvrir</button>
+                    <a href='#contintro' className="btn"> <span></span> Découvrir</a>
                 </div>
             </div>
             

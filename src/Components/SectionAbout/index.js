@@ -2,8 +2,8 @@ import './index.css'
 const SectionAbout = () => {
 
     return (
-        <div className="containerintro">
-            <div className='intro-text'>
+        <div className="containerabout">
+            <div className='about-text'>
                 <div className="quare"></div>
                
                 <div className="sec-services">

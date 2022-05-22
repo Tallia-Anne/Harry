@@ -80,3 +80,263 @@ background-size: cover;
 object-position: center;
 background-repeat: no-repeat;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px)  {
+
+.Sectiongalerie {
+width: 100%;
+height: 650px;
+transform: skew(0deg, -8deg) translateY(-98px);
+background-color: #cbe1ed
+}
+
+.Sectiongalerie .titlegalerie{
+text-align: start;
+margin-left: 185px;
+color: white;
+
+}
+
+.contenaircardgalerie {
+display: flex;
+flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 427px;
+    padding-top: 22px;
+
+}
+
+.Sectiongalerie .galerie {
+    width: 290px;
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.Sectiongalerie .galerie .bordure {
+
+border: 1px solid white;
+width: 260px;
+height: 260px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.Sectiongalerie .galerie .bordure p {
+
+font-size: 20px;
+color: white;
+text-align: center;
+font-family: 'Libre Caslon Display', serif;
+font-weight: 900;
+
+}
+
+.Sectiongalerie .galerie .bordure  a  {
+color: white;
+text-decoration: none;
+}
+
+.item1 {
+background-image: url("https://i.pinimg.com/236x/21/a3/ba/21a3badc6e83adf4980a99e80aa11849.jpg");
+background-size: cover;
+object-position: center;
+background-repeat: no-repeat;
+
+}
+
+.item2 {
+background-image: url("https://i.pinimg.com/originals/40/54/1b/40541b8fa73e8aa54f6842ace1f718d9.jpg");
+background-size: cover;
+object-position: center;
+background-repeat: no-repeat;
+
+}
+
+.item3 {
+background-image: url("https://i.pinimg.com/236x/e9/9f/e3/e99fe3f3c4f1e359807147de90b827d6.jpg");
+background-size: cover;
+object-position: center;
+background-repeat: no-repeat;
+}
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 767.9px)  {
+
+.Sectiongalerie {
+width: 100%;
+height: 850px;
+transform: skew(0deg, -8deg) translateY(-98px);
+background-color: #cbe1ed
+}
+
+.Sectiongalerie .titlegalerie{
+text-align: start;
+margin-left: 185px;
+color: white;
+
+}
+
+.contenaircardgalerie {
+display: flex;
+flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 427px;
+    padding-top: 22px;
+
+}
+
+.Sectiongalerie .galerie {
+    width: 290px;
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.Sectiongalerie .galerie .bordure {
+
+border: 1px solid white;
+width: 260px;
+height: 260px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.Sectiongalerie .galerie .bordure p {
+
+font-size: 20px;
+color: white;
+text-align: center;
+font-family: 'Libre Caslon Display', serif;
+font-weight: 900;
+
+}
+
+.Sectiongalerie .galerie .bordure  a  {
+color: white;
+text-decoration: none;
+}
+
+.item1 {
+background-image: url("https://i.pinimg.com/236x/21/a3/ba/21a3badc6e83adf4980a99e80aa11849.jpg");
+background-size: cover;
+object-position: center;
+background-repeat: no-repeat;
+
+}
+
+.item2 {
+background-image: url("https://i.pinimg.com/originals/40/54/1b/40541b8fa73e8aa54f6842ace1f718d9.jpg");
+background-size: cover;
+object-position: center;
+background-repeat: no-repeat;
+
+}
+
+.item3 {
+background-image: url("https://i.pinimg.com/236x/e9/9f/e3/e99fe3f3c4f1e359807147de90b827d6.jpg");
+background-size: cover;
+object-position: center;
+background-repeat: no-repeat;
+}
+
+}
+@media screen and (min-width: 320px) and (max-width: 479.9px)  {
+
+.Sectiongalerie {
+width: 100%;
+height: 950px;
+transform: skew(0deg, -8deg) translateY(-98px);
+background-color: #cbe1ed
+}
+
+.Sectiongalerie .titlegalerie{
+text-align: start;
+margin-left: 185px;
+color: white;
+
+}
+
+.contenaircardgalerie {
+display: flex;
+flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 427px;
+    padding-top: 22px;
+
+}
+
+.Sectiongalerie .galerie {
+    width: 290px;
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.Sectiongalerie .galerie .bordure {
+
+border: 1px solid white;
+width: 260px;
+height: 260px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.Sectiongalerie .galerie .bordure p {
+
+font-size: 20px;
+color: white;
+text-align: center;
+font-family: 'Libre Caslon Display', serif;
+font-weight: 900;
+
+}
+
+.Sectiongalerie .galerie .bordure  a  {
+color: white;
+text-decoration: none;
+}
+
+.item1 {
+background-image: url("https://i.pinimg.com/236x/21/a3/ba/21a3badc6e83adf4980a99e80aa11849.jpg");
+background-size: cover;
+object-position: center;
+background-repeat: no-repeat;
+
+}
+
+.item2 {
+background-image: url("https://i.pinimg.com/originals/40/54/1b/40541b8fa73e8aa54f6842ace1f718d9.jpg");
+background-size: cover;
+object-position: center;
+background-repeat: no-repeat;
+
+}
+
+.item3 {
+background-image: url("https://i.pinimg.com/236x/e9/9f/e3/e99fe3f3c4f1e359807147de90b827d6.jpg");
+background-size: cover;
+object-position: center;
+background-repeat: no-repeat;
+}
+
+}

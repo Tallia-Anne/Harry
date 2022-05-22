@@ -1,3 +1,4 @@
+@media screen and (min-width: 1280px) {
 .containerhero {
 background-image: url("https://images.ctfassets.net/usf1vwtuqyxm/wq7bQpHNLXdxajd2JZ5ON/adabf59972e39ada322a2862109fb28d/Patronus__1_.jpg?q=70");
 background-size: cover;
@@ -28,10 +29,281 @@ padding-bottom: 30px;
 font-family: 'Libre Caslon Display', serif;
 }
 
-.herosection2 button {
+.herosection2 .btn {
 background-color:  transparent;
 border:  1px solid white;
 padding: 12px 37px;
 color: white;
+text-decoration: none;
+position: relative;
+    cursor: pointer;
 } 
 
+.btn span {
+position: absolute;
+width: 0;
+height: 100%;
+top: 0;
+left: 0;
+background-color: rgba(255, 255, 255, 0.354);
+z-index: 1;
+transition: 0.2s;
+color: white;
+}
+
+.btn:hover span {
+width: 100%;
+}
+
+.btn:hover {
+color: black;
+}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+.containerhero {
+background-image: url("https://images.ctfassets.net/usf1vwtuqyxm/wq7bQpHNLXdxajd2JZ5ON/adabf59972e39ada322a2862109fb28d/Patronus__1_.jpg?q=70");
+background-size: cover;
+object-position: center;
+background-repeat: no-repeat;
+width: 100%;
+height: 600px;
+display: flex;
+justify-content: center;
+align-items: center;
+clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+z-index: 123;
+
+}
+
+.herosection2 {
+padding: 20px;
+display: flex;
+flex-direction: column;
+gap: 12px;
+}
+
+.herosection2  .title {
+color: white;
+font-size: 40px;
+font-weight: 200;
+padding-bottom: 30px;
+font-family: 'Libre Caslon Display', serif;
+}
+
+.herosection2 .btn {
+background-color:  transparent;
+border:  1px solid white;
+padding: 12px 37px;
+color: white;
+text-decoration: none;
+position: relative;
+    cursor: pointer;
+} 
+
+.btn span {
+position: absolute;
+width: 0;
+height: 100%;
+top: 0;
+left: 0;
+background-color: rgba(255, 255, 255, 0.354);
+z-index: 1;
+transition: 0.2s;
+color: white;
+}
+
+.btn:hover span {
+width: 100%;
+}
+
+.btn:hover {
+color: black;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+.containerhero {
+background-image: url("https://images.ctfassets.net/usf1vwtuqyxm/wq7bQpHNLXdxajd2JZ5ON/adabf59972e39ada322a2862109fb28d/Patronus__1_.jpg?q=70");
+background-size: cover;
+object-position: center;
+background-repeat: no-repeat;
+width: 100%;
+height: 600px;
+display: flex;
+justify-content: center;
+align-items: center;
+clip-path: polygon(0 0, 100% 0, 100% 76%, 0 100%);
+z-index: 123;
+
+}
+
+.herosection2 {
+padding: 20px;
+display: flex;
+flex-direction: column;
+gap: 12px;
+}
+
+.herosection2  .title {
+color: white;
+font-size: 40px;
+font-weight: 200;
+padding-bottom: 30px;
+font-family: 'Libre Caslon Display', serif;
+}
+
+.herosection2 .btn {
+background-color:  transparent;
+border:  1px solid white;
+padding: 12px 37px;
+color: white;
+text-decoration: none;
+position: relative;
+    cursor: pointer;
+} 
+
+.btn span {
+position: absolute;
+width: 0;
+height: 100%;
+top: 0;
+left: 0;
+background-color: rgba(255, 255, 255, 0.354);
+z-index: 1;
+transition: 0.2s;
+color: white;
+}
+
+.btn:hover span {
+width: 100%;
+}
+
+.btn:hover {
+color: black;
+}
+}
+
+@media screen and (min-width: 480px) and (max-width: 767.9px) {
+.containerhero {
+background-image: url("https://images.ctfassets.net/usf1vwtuqyxm/wq7bQpHNLXdxajd2JZ5ON/adabf59972e39ada322a2862109fb28d/Patronus__1_.jpg?q=70");
+background-size: cover;
+object-position: center;
+background-repeat: no-repeat;
+width: 100%;
+height: 600px;
+display: flex;
+justify-content: center;
+align-items: center;
+clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+z-index: 123;
+
+}
+
+.herosection2 {
+padding: 20px;
+display: flex;
+flex-direction: column;
+gap: 12px;
+}
+
+.herosection2  .title {
+color: white;
+font-size: 40px;
+font-weight: 200;
+padding-bottom: 30px;
+font-family: 'Libre Caslon Display', serif;
+}
+
+.herosection2 .btn {
+background-color:  transparent;
+border:  1px solid white;
+padding: 12px 37px;
+color: white;
+text-decoration: none;
+position: relative;
+    cursor: pointer;
+} 
+
+.btn span {
+position: absolute;
+width: 0;
+height: 100%;
+top: 0;
+left: 0;
+background-color: rgba(255, 255, 255, 0.354);
+z-index: 1;
+transition: 0.2s;
+color: white;
+}
+
+.btn:hover span {
+width: 100%;
+}
+
+.btn:hover {
+color: black;
+}
+}
+
+@media screen and (min-width: 320px) and (max-width: 479.9px)  {
+.containerhero {
+background-image: url("https://images.ctfassets.net/usf1vwtuqyxm/wq7bQpHNLXdxajd2JZ5ON/adabf59972e39ada322a2862109fb28d/Patronus__1_.jpg?q=70");
+background-size: cover;
+object-position: center;
+background-repeat: no-repeat;
+width: 100%;
+height: 600px;
+display: flex;
+justify-content: center;
+align-items: center;
+clip-path: polygon(0 0, 100% 0, 100% 81%, 0 100%);
+z-index: 123;
+
+}
+
+.herosection2 {
+padding: 20px;
+display: flex;
+flex-direction: column;
+gap: 12px;
+}
+
+.herosection2  .title {
+color: white;
+font-size: 40px;
+font-weight: 200;
+padding-bottom: 30px;
+font-family: 'Libre Caslon Display', serif;
+}
+
+.herosection2 .btn {
+background-color:  transparent;
+border:  1px solid white;
+padding: 12px 37px;
+color: white;
+text-decoration: none;
+position: relative;
+    cursor: pointer;
+} 
+
+.btn span {
+position: absolute;
+width: 0;
+height: 100%;
+top: 0;
+left: 0;
+background-color: rgba(255, 255, 255, 0.354);
+z-index: 1;
+transition: 0.2s;
+color: white;
+}
+
+.btn:hover span {
+width: 100%;
+}
+
+.btn:hover {
+color: black;
+}
+}

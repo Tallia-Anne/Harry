@@ -1,4 +1,6 @@
 import './index.css'
+import { Link } from 'react-router-dom'
+
 const SectionParallaxe = () => {
     
     return (
@@ -21,7 +23,7 @@ const SectionParallaxe = () => {
                         d'elles a formé au cours des ans
                         des sorciers et des sorcières de
                         premier plan.</p>
-                    <button>Découvrir les blasons</button>
+                    <Link to="/house" >  <button> <span></span>Découvrir les blasons</button> </Link>
                 </div>
             </div>
         </div>

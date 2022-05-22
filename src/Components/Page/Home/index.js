@@ -5,6 +5,7 @@ import Sectiongalerie from "../../Sectiongalerie"
 // import Card from "../../Card"
 import SectionAbout from "../../SectionAbout"
 import Secimage from "../../Secimage"
+import Fond from "../../Fond"
 const Home = () => {
     
     return (
@@ -15,7 +16,8 @@ const Home = () => {
             <Sectiongalerie />
             {/* <Card /> */}
             <SectionAbout />
-            <Secimage/>
+            <Secimage />
+            <Fond/>
             
             
         </div>

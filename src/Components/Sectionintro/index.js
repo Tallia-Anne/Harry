@@ -2,7 +2,7 @@ import './intro.css'
 const Sectionintro = () => {
     
     return (
-        <div className="containerintro">
+        <div className="containerintro" id='contintro' >
             <div className='intro-text'>
             <div className="quare"></div>
             <h2 className="intro">Bienvenu dans le monde Harry potter</h2>

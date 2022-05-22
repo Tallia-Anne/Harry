@@ -15,7 +15,7 @@ const Characters = () => {
     useEffect(() => {
         const fetchData = async () => {
             
-            const response = await axios.get("http://hp-api.herokuapp.com/api/characters");
+            const response = await axios.get("https://hp-api.herokuapp.com/api/characters");
             console.log("response.data", response.data);
             
             const modifiedData = response.data.filter((el) => {

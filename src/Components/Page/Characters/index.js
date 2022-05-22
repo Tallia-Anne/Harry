@@ -1,6 +1,7 @@
 import Heroperson from "../../Heroperson";
 import Personnage from "../../Personnage";
 import axios from "axios";
+import './characters.css'
 import { useState, useEffect } from "react";
 
 
@@ -29,14 +30,19 @@ const Characters = () => {
     return (
         <div className='charactère'>
             <Heroperson />
+            <div className="search-bar" >
+             <h4>Barre de recherche: </h4>   
             {/* recuperer les donnée dans le composant */}
             <input
                 type="text"
-                value={search}
+                    value={search}
+                    placeholder="veiller entrer un personnage "
                 onChange={(event) => {
                     setSearch(event.target.value);
                 }}
-            />
+                />
+
+            </div>
             
             {data !== null ? <Personnage data={data} /> : null}
             

@@ -13,6 +13,24 @@ color: gray;
 font-size: 12px;
 }
 
+.footer .row-icon {
+width: 100%;
+margin: 1% 0%;
+padding: 0.6% 0%;
+color: gray;
+font-size: 19px;
+display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1;
+    gap: 33px;
+}
+
+
+.footer .row-icon p:hover {
+color: white;
+}
+
 .footer .row a {
 text-decoration: none;
 color: gray;

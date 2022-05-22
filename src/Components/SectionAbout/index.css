@@ -13,7 +13,6 @@ transform: skew(0deg, -8deg) translateY(-95px);
 
 
 .containerabout .about {
-
 color: white;
 text-align: center;
  width: 584px;
@@ -68,8 +67,6 @@ background-color: rgba(255, 255, 255, 0.539) ;
 }
 
 .services {
-
-
 display: flex;
 flex-direction: row;
 justify-content: space-evenly;
@@ -78,7 +75,6 @@ flex-wrap: wrap;
 }
 .sec-services h2 {
     text-align: center;
-    /* padding-bottom: 112px; */
     font-size: 36px;
     font-family: 'Gilda Display', serif;
     color: white;

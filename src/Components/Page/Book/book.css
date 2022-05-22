@@ -1,0 +1,10 @@
+.book-container {
+padding: 28px;
+display: flex;
+gap: 28px;
+width: 100%;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+background-color: black;
+}

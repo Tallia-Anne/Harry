@@ -16,6 +16,7 @@ import Erreur from './Components/Page/Erreur/Pageerreur'
 import Ravenclaw from './Components/Page/Ravenclaw';
 import Serpent from './Components/Page/Serpent';
 import Hufflepuff from './Components/Page/Hufflepuff';
+import Book from './Components/Page/Book/book';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
           <Route path="serpent" element={<Serpent />} />
           <Route path='hufflepuff' element={<Hufflepuff />} />
           <Route path="sort" element={<Sort />} />
+          <Route path="book" element={<Book />} />
           <Route path="*" element={<Erreur/>} />
          
 

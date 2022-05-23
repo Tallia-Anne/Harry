@@ -79,3 +79,72 @@ flex-grow: 1;
 .overlay:hover {
 opacity: 0;
 }
+
+@media screen and (max-width:  480px)   { 
+.container-house {
+width: 100%;
+display: flex;
+flex-direction: column;
+
+}
+
+.container-house .itemhouse {
+width: 100%;
+height: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+}
+
+
+
+.container-house .itemhouse h1 {
+    color: white;
+    font-family: 'Libre Caslon Display', serif;
+    font-weight: 200;
+    transform: rotate(317deg) translateY(54px);
+}
+.container-house .itemhouse a {
+    text-decoration: none;
+}
+
+
+.house1 {
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100%;
+width: 100%;
+
+} 
+.house2 {
+background-position: center;
+background-repeat: no-repeat;
+transition: all 300ms ease-in-out;
+background-size: cover;
+height: 100%;
+width: 100%;
+} 
+.house3 {
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+transition: all 300ms ease-in-out;
+height: 100%;
+width: 100%;
+} 
+.house4 {
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+transition: all 300ms ease-in-out;
+height: 100%;
+width: 100%;
+} 
+
+.overlay:hover {
+opacity: 0;
+}
+
+}

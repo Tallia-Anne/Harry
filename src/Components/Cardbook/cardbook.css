@@ -76,3 +76,29 @@ width: 100%;
 .book-card:hover .book-card__book-side {
   opacity: 1;
 }
+
+.btn-row {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 12px;
+padding: 12px 12px;
+}
+.btn-row .btn-fnac {
+background-color: #E4AD00;
+box-shadow: 1px 1px 1px grey;
+padding: 8px 8px;
+border-radius: 8px;
+width: 30%;
+color: white;
+cursor: pointer;
+}
+.btn-row .btn-amazon {
+background-color: #232F3E;
+box-shadow: 1px 1px 1px grey;
+padding: 8px 8px;
+border-radius: 8px;
+width: 40%;
+color: white;
+cursor: pointer;
+}

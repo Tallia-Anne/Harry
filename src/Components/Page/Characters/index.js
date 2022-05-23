@@ -6,8 +6,6 @@ import { useState, useEffect } from "react";
 
 
 
-
-
 const Characters = () => {
 
     const [data, setData] = useState(null);
@@ -29,6 +27,7 @@ const Characters = () => {
     
     return (
         <div className='charactère'>
+            
             <Heroperson />
             <div className="search-bar" >
              <h4>Barre de recherche: </h4>   

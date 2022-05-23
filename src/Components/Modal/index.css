@@ -1,0 +1,275 @@
+.myModal {
+    position: fixed;
+    top:0;
+    background-color: rgba(1,1,1,0.8);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: appear 1s;
+    z-index: 12
+}
+
+.conmodal{
+background: linear-gradient(91deg, rgba(7, 58, 187, 1) 22%, rgba(255, 255, 255, 1) 21%);
+display: grid;
+grid-template-columns: 1fr 1fr;
+margin: 0 auto;
+width: 70%;
+height: 70%;
+}
+
+.conmodal .modal-img {
+
+width: 250px;
+    height: 347px;
+    background-repeat: no-repeat;
+    margin: 23px auto;
+    
+}
+
+.conmodal .modal-img img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: center;
+}
+
+.conmodal .modal-text {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: 90%;
+}
+
+.conmodal .modal-text .modaltitle {
+padding-bottom: 21px;
+}
+
+.conmodal .modal-text .modaltsuvitle ul {
+display: flex;
+flex-direction: row;
+gap: 29px;
+list-style: none;
+padding-bottom: 21px;
+}
+
+.conmodal .modal-text p {
+padding-bottom: 12px;
+}
+
+.etat {
+background-color: green;
+border-radius: 50%;
+width: 20px;
+height: 20px;
+}
+
+button {
+
+background-color: #073abb;
+padding: 12px 22px;
+color: white;
+border-radius: 7px;
+border: none;
+
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+    
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px)   {
+
+.myModal {
+    position: fixed;
+    top:0;
+    background-color: rgba(1,1,1,0.8);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: appear 1s;
+    z-index: 12
+}
+
+.conmodal{
+background: linear-gradient(91deg, rgba(7, 58, 187, 1) 22%, rgba(255, 255, 255, 1) 21%);
+display: grid;
+grid-template-columns: 1fr 1fr;
+margin: 0 auto;
+width: 85%;
+height: 80%;
+}
+
+.conmodal .modal-img {
+
+width: 250px;
+    height: 347px;
+    background-repeat: no-repeat;
+    margin: 23px auto;
+    
+}
+
+.conmodal .modal-img img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: center;
+}
+
+.conmodal .modal-text {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: 90%;
+}
+
+.conmodal .modal-text .modaltitle {
+padding-bottom: 21px;
+}
+
+.conmodal .modal-text .modaltsuvitle ul {
+display: flex;
+flex-direction: row;
+gap: 29px;
+list-style: none;
+padding-bottom: 21px;
+}
+
+.conmodal .modal-text p {
+padding-bottom: 12px;
+}
+
+.etat {
+background-color: green;
+border-radius: 50%;
+width: 20px;
+height: 20px;
+}
+
+button {
+
+background-color: #073abb;
+padding: 12px 22px;
+color: white;
+border-radius: 7px;
+border: none;
+
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+    
+}
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 767.9px)  {
+
+.myModal {
+    position: fixed;
+    top:0;
+    background-color: rgba(1,1,1,0.8);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: appear 1s;
+    z-index: 12
+}
+
+.conmodal{
+background: linear-gradient(91deg, rgba(7, 58, 187, 1) 22%, rgba(255, 255, 255, 1) 21%);
+display: grid;
+grid-template-columns: 1fr ;
+margin: 0 auto;
+width: 90%;
+height: 71%;
+}
+
+.conmodal .modal-img {
+
+width: 250px;
+    height: 347px;
+    background-repeat: no-repeat;
+    margin: 23px auto;
+    
+}
+
+.conmodal .modal-img img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: center;
+}
+
+.conmodal .modal-text {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: 90%;
+}
+
+.conmodal .modal-text .modaltitle {
+padding-bottom: 21px;
+}
+
+.conmodal .modal-text .modaltsuvitle ul {
+display: flex;
+flex-direction: row;
+gap: 29px;
+list-style: none;
+padding-bottom: 21px;
+}
+
+.conmodal .modal-text p {
+padding-bottom: 12px;
+}
+
+.etat {
+background-color: green;
+border-radius: 50%;
+width: 20px;
+height: 20px;
+}
+
+button {
+
+background-color: #073abb;
+padding: 12px 22px;
+color: white;
+border-radius: 7px;
+border: none;
+
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+    
+}
+
+}

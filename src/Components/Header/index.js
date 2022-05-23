@@ -15,6 +15,7 @@ const Header = () => {
                     <li> <Link to="/house" > Les maisons</Link></li>
                     <li><Link to="/characters"> Les personnages </Link>  </li>
                     <li> <Link to="/sort" > Les sorts</Link></li>
+                    <li> <Link to="/book" > Les tomes</Link></li>
                     
 
 

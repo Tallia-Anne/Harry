@@ -29,6 +29,9 @@ const CardBook = (props) => {
                 <div className="book-card__author">
                     J. K. Rowling
                 </div>
+                <button>Fnac</button>
+                <button>Amazon</button>
+              
             </div>
         </>
 )

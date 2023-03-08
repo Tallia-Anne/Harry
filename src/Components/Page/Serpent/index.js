@@ -15,7 +15,7 @@ const Slytherin = () => {
     useEffect(() => {
         const fetchData = async () => {
 
-            const response = await axios.get("https://hp-api.herokuapp.com/api/characters");
+            const response = await axios.get("https://hp-api.onrender.com/api/characters");
             console.log("response.data", response.data);
 
             const modifiedData = response.data.filter((el) => {
